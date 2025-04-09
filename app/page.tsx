@@ -1,7 +1,7 @@
-import Navbar from "@/components/Navbar";
-import Hero from "@/components/Hero"
-import Ourclient from "@/components/Ourclient";
-import Community from "@/components/Community";
+import Navbar from "@/components/layout/Navbar";
+import Hero from "@/components/sections/Hero"
+import Ourclient from "@/components/sections/Ourclient";
+import Community from "@/components/sections/Community";
 
 export default function Home() {
   return (

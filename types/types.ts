@@ -3,3 +3,8 @@ export type CommunityProps = {
     title: string;
     description: string;
 }
+
+export type FooterSection = {
+    title: string;
+    links: string[];
+};
