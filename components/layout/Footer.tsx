@@ -33,8 +33,8 @@ const Footer = () => {
                 </div>
                 ))}
 
-                <div>
-                    <h3 className="text-white font-semibold mb-6">Stay up to date</h3>
+                <div className="pl-4 flex flex-col items-start gap-6">
+                    <h3 className="text-white font-semibold">Stay up to date</h3>
                     <div className="flex">
                         <input
                         type="email"
