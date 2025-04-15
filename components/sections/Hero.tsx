@@ -3,7 +3,7 @@ import React from 'react'
 
 const Hero = () => {
     return (
-        <div className='w-full flex flex-row py-[96px] px-[144px] gap-[104px] items-start bg-[#F5F7FA]'>
+        <section className='w-full flex py-[96px] px-[144px] gap-[104px] items-start bg-[#F5F7FA]'>
             <div>
                 <p className='text-[#4D4D4D] font-bold text-[64px]/[76px] pb-4'>
                     Lessons and insights <span className='text-[#4CAF4F]'>from 8 years</span>
@@ -24,7 +24,7 @@ const Hero = () => {
                     height={407}
                 />
             </div>
-        </div>
+        </section>
     )
 }
 
