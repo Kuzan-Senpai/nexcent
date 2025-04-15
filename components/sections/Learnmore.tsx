@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 
+
 const Learnmore = () => {
     return (
         <section className='w-full flex items-center gap-10 px-[144px] py-12'>
